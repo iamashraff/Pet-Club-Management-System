@@ -1,0 +1,43 @@
+<footer class="footer mt-auto py-3 bg-dark align-middle sticky-bottom">
+  <br>
+  <div class="container">
+
+     <div class="container">
+       <div class="row">
+        <?php
+        
+        $pagename = basename($_SERVER['PHP_SELF']);
+
+        if(isset($_SESSION["admin_id"]) || $pagename=="admin_login.php"){
+          $dirFooter="../";
+        }else{
+          $dirFooter="";
+        }
+        ?>
+
+         <div class="col">
+                             <br>
+            <img class="me-2" src="<?php echo $dirFooter; ?>includes/imageres/logo_blackwhite.png" width="50" style="margin-top:-20px;" >
+            <span class="text-light"><label style="font-size: 30px; font-family: 'hello_calanthe_demoregular'; text-shadow: 0px 0px 8px rgb(255,255,255);">Pet Corner Club</label></span><br>
+            <small><span class="text-muted" style="font-weight: bolder;">1016 Jalan Sultan Ismail<br>50250 Kuala Lumpur</span></small>
+            <br>
+         </div>
+         <div class="col">
+                    <br><br>
+                     <div style="text-align:right;">
+                    <span class="text-muted">Made with <i style="color:red;" class="fas fa-heart"></i> at UniKL</span><br>
+                    <span class="text-muted">Developed by <b>Muhamad Ashraff</b></span><br>
+                     <span class="text-muted">© 2021 Pet Corner Club</span>
+                  
+                    </div>
+                    
+         </div>
+
+       </div>
+     </div>
+  </div>
+  <br>
+</footer>
+
+</body>
+</html>
