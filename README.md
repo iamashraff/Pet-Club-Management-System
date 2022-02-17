@@ -39,6 +39,92 @@ Technology :
 	![Administrator Sitemap](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/sitemap_admin.jpg?token=GHSAT0AAAAAABRS3BR4U2SMDPSI2M35I2SAYQXERPA)
 				*Figure : Administrator Sitemap*<br><br>
 				
+
+## Databases & ERD
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/erd.jpg?token=GHSAT0AAAAAABRS3BR4B2VBE7FQUJBDCB66YQXSN5Q)
+
+**Business Rules**<br>
+	- A user/member could add one or many pets into their account.<br>
+	- A pet could only be assigned to one and only one user/member at a time.<br>
+	- An administrator could manage one or many user/member at a time.<br>
+	- An administrator could manage one or many pets at a time.<br>
+
+## How to use ?
+**Option 1 : Restore MySQL Dump.**
+1. Login to phpMyAdmin.
+2. Select or create a new database.
+3. Import `petcorner.sql` MySQL dump file.
+4. Import project file to web server directory.
+5. Visit `[URL]/admin/admin_login.php`
+6. Login credential are the following :
+> Admin Username : admin<br>
+> Password : 456
+7. You could easily create a new user account by visiting `[URL]/register.php`
+8. Once registration has success, you may login the system with the information you recently created on this link `[URL]/login.php`
+9. You may try login user with pre-created user account information with the following credential :
+ > Username : muhamadashraff<br>
+> Password : 456
+<br>
+
+**Option 2 : Create a new database.**
+1. Create a new database name : `petcorner`
+2. Create table *admin* by running this SQL query :
+
+>  CREATE TABLE members (   member_id int(6) NOT NULL,
+>  f_name varchar(20) NOT NULL,   
+>  l_name varchar(20) NOT NULL,   
+>  email varchar(30) NOT NULL,   
+>  area_code varchar(5) NOT NULL,   
+>  mobilehp varchar(20) NOT NULL,   
+>  birth_date date NOT NULL,   
+>  username varchar(50) NOT NULL,   
+>  password varchar(100) NOT NULL );
+
+3. Add an *admin privileges* by running SQL query :
+> INSERT INTO admin (admin_id, username, password) VALUES (1,
+> 'admin', '51eac6b471a284d3341d8c0c63d0f1a286262a18');
+
+Password in SHA1 format. <br>
+*`51eac6b471a284d3341d8c0c63d0f1a286262a18`* is *`456`*.
+
+4. Create table *members* and *pet_info*
+
+> CREATE TABLE members ( 
+> member_id int(6) NOT NULL,   
+> f_name varchar(20) NOT NULL,  
+> l_name varchar(20) NOT NULL,   
+> email varchar(30) NOT NULL,   
+> area_code varchar(5) NOT NULL,   
+> mobilehp varchar(20) NOT NULL,  
+> birth_date date NOT NULL,   
+> username varchar(50) NOT NULL,  
+> password varchar(100) NOT NULL );
+
+> CREATE TABLE pet_info (
+> pet_id int(6) NOT NULL,   
+> pet_type varchar(20) NOT NULL,   
+> pet_name varchar(50) NOT NULL,  
+> pet_gender varchar(20) NOT NULL,   
+> pet_partnership_pro varchar(255) NOT NULL,   
+> member_id int(6) NOT NULL,   
+> date_added datetime DEFAULT NULL );
+
+5. Import project file to web server directory.
+6. Visit `[URL]/admin/admin_login.php`
+7. Login credential are the following :
+> Admin Username : admin<br>
+> Password : 456
+
+8. You could easily create a new user account by visiting `[URL]/register.php`
+9. Once registration has success, you may login the system with the information you recently created on this link `[URL]/login.php`
+10. Alternatively, you may run a SQL query to add a user into the database by using the following example query :
+> INSERT INTO members (f_name, l_name, email, area_code, mobilehp,
+> birth_date, username, password) VALUES ('Muhamad', 'Ashraff',
+> 'muhamadashraff@email.com', '011', '3456789', '1990-01-01',
+> 'muhamadashraff', SHA1('456'));
+
+
+				
 ## Main Page
 
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/mainpage.png?token=GHSAT0AAAAAABRS3BR4RGLXRF5S7L66WKIOYQWGQXQ)
@@ -113,33 +199,4 @@ Technology :
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/deletepet_admin.jpg?token=GHSAT0AAAAAABRS3BR4YXID5G3GGCNXFGYMYQXSL4A)
 
 
-## Databases & ERD
-![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/erd.jpg?token=GHSAT0AAAAAABRS3BR4B2VBE7FQUJBDCB66YQXSN5Q)
-
-**Business Rules**
-	- A user/member could add one or many pets into their account.
-	- A pet could only be assigned to one and only one user/member at a time.
-	- An administrator could manage one or many user/member at a time.
-	- An administrator could manage one or many pets at a time.
-
-## How to use ?
-Option 1 : Restore MySQL Dump.
-1. Login to phpMyAdmin.
-2. Select or create a new database.
-3. Import `petcorner.sql` MySQL dump file.
-4. Import project file to web server directory.
-5. Visit `[URL]/admin/admin_login.php`
-6. Login credential are the following :
-> Admin Username : admin<br>
-> Password : 456
-
-
-**Option 2 : Create a new database.**
-8. Create a new database name : `petcorner`
-9. Add an admin privileges by running SQL query :
-> INSERT INTO admin (admin_id, username, password) VALUES (1,
-> 'admin', '51eac6b471a284d3341d8c0c63d0f1a286262a18');
-
-Password in SHA1 format. <br>
-*`51eac6b471a284d3341d8c0c63d0f1a286262a18`* is *`456`*.
 
