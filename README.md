@@ -25,16 +25,20 @@ Technology :
 	Allow user/member to create a new account and register their pet(s) in the system.<br>
 	Allow user/member to edit their account information.<br>
 	Allow user/member to login and logout from their account.<br>
+	![User/Member Sitemap](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/sitemap_user.jpg?token=GHSAT0AAAAAABRS3BR4FT5URJSY2AKJAZCOYQXESRA)
+			*Figure : User/Member Sitemap*<br><br>
 	
 - **Administrator**<br>
-	Allow admin to view all user registered in the system.<br>
-	Allow admin to edit user(s) account information such as name, email, phone number and password.<br>
-	Allow admin to delete user(s) account with their pet(s) assigned to the account.<br>
-	Allow admin to view all user's pet registered in the system.<br>
-	Allow admin to add pet and assigned the pet to a particular user that registered in the system.<br>
-	Allow admin edit user's pet information.<br>
-	Allow admin to delete user's pet.<br>
-
+	Allow administrator to view all user registered in the system.<br>
+	Allow administrator to edit user(s) account information such as name, email, phone number and password.<br>
+	Allow administrator to delete user(s) account with their pet(s) assigned to the account.<br>
+	Allow administrator to view all user's pet registered in the system.<br>
+	Allow administrator to add pet and assigned the pet to a particular user that registered in the system.<br>
+	Allow administrator edit user's pet information.<br>
+	Allow administrator to delete user's pet.<br>
+	![Administrator Sitemap](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/sitemap_admin.jpg?token=GHSAT0AAAAAABRS3BR4U2SMDPSI2M35I2SAYQXERPA)
+				*Figure : Administrator Sitemap*<br><br>
+				
 ## Main Page
 
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/mainpage.png?token=GHSAT0AAAAAABRS3BR4RGLXRF5S7L66WKIOYQWGQXQ)
