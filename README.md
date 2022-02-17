@@ -68,3 +68,29 @@ Technology :
 
 	3.5 Edit Account Information
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/editaccount_user.jpg?token=GHSAT0AAAAAABRS3BR4CZ2SDDZB5KTN4G36YQXFBMA)
+
+## Administrator Side
+1. Administrator Login
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/login_admin.jpg?token=GHSAT0AAAAAABRS3BR4PQ5I4LV6VH7FMQZ6YQXRUXQ)
+
+2. Administrator Dashboard
+
+	2.1 User Management
+
+	2.1.1 **View** All Users
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewusers_admin.jpg?token=GHSAT0AAAAAABRS3BR45CE6QFW7OYNWPANQYQXRXRA)
+
+	2.1.2 **Add** User
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/adduser_admin.jpg?token=GHSAT0AAAAAABRS3BR4GAOVONLKD3ZF4L3IYQXR3JQ)
+
+	2.1.3 **View** A User
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewuser_admin.jpg?token=GHSAT0AAAAAABRS3BR4XSMG3N57XEJEPVQYYQXR6SA)
+
+	2.1.4 **Edit** User's Password
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/editpassword_admin.jpg?token=GHSAT0AAAAAABRS3BR5SFR4CZEY55ESVMLOYQXSAAA)
+
+	  2.1.5 **Edit** User's Account Information
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/edituser_admin.jpg?token=GHSAT0AAAAAABRS3BR57J5TZFKOOEDXYMM4YQXSBYQ)
+
+	2.1.6 **Delete** User
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/deleteuser_admin.jpg?token=GHSAT0AAAAAABRS3BR5HUWYMKJVGJK6EENKYQXSDLQ)
