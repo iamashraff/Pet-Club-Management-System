@@ -63,7 +63,7 @@ CREATE TABLE `members` (
 --
 
 INSERT INTO `members` (`member_id`, `f_name`, `l_name`, `email`, `area_code`, `mobilehp`, `birth_date`, `username`, `password`) VALUES
-(20, 'Muhamad', 'Ashraff', 'muhamadashraff@email.com', '011', '23192237', '1990-01-01', 'muhamadashraff', '51eac6b471a284d3341d8c0c63d0f1a286262a18'),
+(20, 'Muhamad', 'Ashraff', 'muhamadashraff@email.com', '011', '34567890', '1990-01-01', 'muhamadashraff', '51eac6b471a284d3341d8c0c63d0f1a286262a18'),
 (21, 'Muhammad', 'Hadif', 'hadif@gmail.com', '012', '3320933', '2001-05-01', 'muhammadhadif', '51eac6b471a284d3341d8c0c63d0f1a286262a18'),
 (22, 'Siti', 'Nabilah', 'nabilah@gmail.com', '019', '2438933', '1999-07-01', 'sitinabilah', '51eac6b471a284d3341d8c0c63d0f1a286262a18'),
 (23, 'Sharifah', 'Fatihah', 'fatihah@gmail.com', '017', '2743933', '1999-12-31', 'fatihah', '51eac6b471a284d3341d8c0c63d0f1a286262a18'),
