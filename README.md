@@ -3,6 +3,10 @@
 ***Pet Corner Club*** is a ***Pet Club Management System***. Design for Pet Club to manage the membership of the club.<br>
 The project was developed by me for Internet Programming (ISB42503) course at  the Universiti Kuala Lumpur (UniKL MIIT).
 
+## License
+The source code has been published on GitHub Repository under _MIT License_.  
+Please visit `LICENSE` file to read the details about the license.
+
 ## About the project
 The system is using  ***CRUD*** concept in ***PHP***.
 
@@ -40,7 +44,7 @@ Technology :
 				*Figure : Administrator Sitemap*<br><br>
 				
 
-## Databases & ERD
+## Databases
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/erd.jpg?token=GHSAT0AAAAAABRS3BR4B2VBE7FQUJBDCB66YQXSN5Q)
 
 **Business Rules**<br>
@@ -132,71 +136,75 @@ Password in SHA1 format. <br>
 
 ## User Side
 
-1. User Login Form
+1. **User *Login* Form**
 ![User Login Form](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/login_user.jpg?token=GHSAT0AAAAAABRS3BR43GN2B3IJ4MFG4SVWYQXEU4A)
 <br><br>
-2. User Registration Form
+2. **User *Registration* Form**
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/register_user.jpg?token=GHSAT0AAAAAABRS3BR5V4G5YF5FUBYPE4XSYQXEWVQ)
 
-3. User Dashboard
+3. **User Dashboard**
 	
-	3.1 **View** Pets
+	3.1 ***View*** Pets
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewpets_user.jpg?token=GHSAT0AAAAAABRS3BR4MNWXGKZHPXZI5M32YQXEYTA)
 
-	3.2 **Add** Pets
+	3.2 ***Add*** Pets
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/addpets_user.jpg?token=GHSAT0AAAAAABRS3BR55MKJ3ARYJ7PAT2SUYQXE2AQ)
 
-	3.3 **Edit** Pet
+	3.3 ***Edit*** Pet
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/editpet_user.jpg?token=GHSAT0AAAAAABRS3BR5EIZWMLH7QIL4QBQMYQXE3DQ)
 
-	3.4 **Delete** Pet
+	3.4 ***Delete*** Pet
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/deletepet_user.jpg?token=GHSAT0AAAAAABRS3BR5P6PVO64LIPSJO2J6YQXE4IA)
 
-	3.5 Edit Account Information
+	3.5 ***Edit*** Account Information
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/editaccount_user.jpg?token=GHSAT0AAAAAABRS3BR4CZ2SDDZB5KTN4G36YQXFBMA)
 
 ## Administrator Side
-1. Administrator Login
+1. **Administrator *Login***
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/login_admin.jpg?token=GHSAT0AAAAAABRS3BR4PQ5I4LV6VH7FMQZ6YQXRUXQ)
 
-2. Administrator Dashboard
+2. **Administrator Dashboard**
 
-	2.1 User Management
+	2.1 **User Management**
 
-	2.1.1 **View** All Users
+	2.1.1 ***View*** All Users
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewusers_admin.jpg?token=GHSAT0AAAAAABRS3BR45CE6QFW7OYNWPANQYQXRXRA)
 
-	2.1.2 **Add** User
+	2.1.2 ***Add*** User
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/adduser_admin.jpg?token=GHSAT0AAAAAABRS3BR4GAOVONLKD3ZF4L3IYQXR3JQ)
 
-	2.1.3 **View** A User
+	2.1.3 ***View*** A User
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewuser_admin.jpg?token=GHSAT0AAAAAABRS3BR4XSMG3N57XEJEPVQYYQXR6SA)
 
-	2.1.4 **Edit** User's Password
+	2.1.4 ***Edit*** User's Password
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/editpassword_admin.jpg?token=GHSAT0AAAAAABRS3BR5SFR4CZEY55ESVMLOYQXSAAA)
 
-	  2.1.5 **Edit** User's Account Information
+	  2.1.5 ***Edit*** User's Account Information
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/edituser_admin.jpg?token=GHSAT0AAAAAABRS3BR57J5TZFKOOEDXYMM4YQXSBYQ)
 
-	2.1.6 **Delete** User
+	2.1.6 ***Delete*** User
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/deleteuser_admin.jpg?token=GHSAT0AAAAAABRS3BR5HUWYMKJVGJK6EENKYQXSDLQ)
 
-	2.2 Pet Management
+	2.2 **Pet Management**
 	
-	2.2.1 **View** All Pets
+	2.2.1 ***View*** All Pets
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewpets_admin.jpg?token=GHSAT0AAAAAABRS3BR5B6DFLILVECV5J5DEYQXSGWQ)
 
-	2.2.2 **Add** Pets
+	2.2.2 ***Add*** Pets
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/addpet_admin.jpg?token=GHSAT0AAAAAABRS3BR4JKFBSIL3A7W7WNYUYQXSIFQ)
 
-	2.2.3 **View** A Pet
+	2.2.3 ***View*** A Pet
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewpet_admin.jpg?token=GHSAT0AAAAAABRS3BR5R753YFSCCRGJNSEGYQXSJWQ)
 
-	2.2.4 **Edit** Pet
+	2.2.4 ***Edit*** Pet
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/editpet_admin.jpg?token=GHSAT0AAAAAABRS3BR5CWB2FKT6BWW7DCNCYQXSKTA)
 
-	2.2.5 **Delete** Pet
+	2.2.5 ***Delete*** Pet
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/deletepet_admin.jpg?token=GHSAT0AAAAAABRS3BR4YXID5G3GGCNXFGYMYQXSL4A)
 
 
 
+## Credit
+**Developed by :**  
+_Muhamad Ashraff Othman_<br>
+© 2021-2022 All rights reserved.
