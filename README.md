@@ -94,3 +94,52 @@ Technology :
 
 	2.1.6 **Delete** User
 ![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/deleteuser_admin.jpg?token=GHSAT0AAAAAABRS3BR5HUWYMKJVGJK6EENKYQXSDLQ)
+
+	2.2 Pet Management
+	
+	2.2.1 **View** All Pets
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewpets_admin.jpg?token=GHSAT0AAAAAABRS3BR5B6DFLILVECV5J5DEYQXSGWQ)
+
+	2.2.2 **Add** Pets
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/addpet_admin.jpg?token=GHSAT0AAAAAABRS3BR4JKFBSIL3A7W7WNYUYQXSIFQ)
+
+	2.2.3 **View** A Pet
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/viewpet_admin.jpg?token=GHSAT0AAAAAABRS3BR5R753YFSCCRGJNSEGYQXSJWQ)
+
+	2.2.4 **Edit** Pet
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/editpet_admin.jpg?token=GHSAT0AAAAAABRS3BR5CWB2FKT6BWW7DCNCYQXSKTA)
+
+	2.2.5 **Delete** Pet
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/deletepet_admin.jpg?token=GHSAT0AAAAAABRS3BR4YXID5G3GGCNXFGYMYQXSL4A)
+
+
+## Databases & ERD
+![enter image description here](https://raw.githubusercontent.com/iamashraff/Pet-Club-Management-System/main/img/erd.jpg?token=GHSAT0AAAAAABRS3BR4B2VBE7FQUJBDCB66YQXSN5Q)
+
+**Business Rules**
+	- A user/member could add one or many pets into their account.
+	- A pet could only be assigned to one and only one user/member at a time.
+	- An administrator could manage one or many user/member at a time.
+	- An administrator could manage one or many pets at a time.
+
+## How to use ?
+Option 1 : Restore MySQL Dump.
+1. Login to phpMyAdmin.
+2. Select or create a new database.
+3. Import `petcorner.sql` MySQL dump file.
+4. Import project file to web server directory.
+5. Visit `[URL]/admin/admin_login.php`
+6. Login credential are the following :
+> Admin Username : admin<br>
+> Password : 456
+
+
+**Option 2 : Create a new database.**
+8. Create a new database name : `petcorner`
+9. Add an admin privileges by running SQL query :
+> INSERT INTO admin (admin_id, username, password) VALUES (1,
+> 'admin', '51eac6b471a284d3341d8c0c63d0f1a286262a18');
+
+Password in SHA1 format. <br>
+*`51eac6b471a284d3341d8c0c63d0f1a286262a18`* is *`456`*.
+
