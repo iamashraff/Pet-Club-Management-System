@@ -7,7 +7,7 @@
 // Set the database access information as constants:
 DEFINE ('DB_USER', 'root');
 DEFINE ('DB_PASSWORD', '');
-DEFINE ('DB_HOST', 'localhost');
+DEFINE ('DB_HOST', 'localhost ');
 DEFINE ('DB_NAME', 'petcorner');
 
 // Make the connection:
